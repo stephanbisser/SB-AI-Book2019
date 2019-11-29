@@ -1,0 +1,238 @@
+[
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "timestamp": "2019-10-08T08:32:47.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+        "name": "Bot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Hi!",
+    "timestamp": "2019-10-08T08:32:49.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Hey!",
+    "timestamp": "2019-10-08T08:32:51.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Hello there!\r\nHow can I help you with?\r\n* order - I can order food for you\r\n* list - I can list your previous orders\r\n* help - I can help you with your questions",
+    "timestamp": "2019-10-08T08:32:53.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "I want to order food",
+    "timestamp": "2019-10-08T08:32:55.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {
+          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+          "type": "AdaptiveCard",
+          "version": "1.0",
+          "body": [
+            {
+              "speak": "<s>Serious Pie is a Pizza restaurant which is rated 9.3 by customers.</s>",
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "size": "2",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Contoso Food Bot",
+                      "weight": "Bolder",
+                      "size": "ExtraLarge"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "I'm here to help you ordering"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "text": "your favorite food!"
+                    }
+                  ],
+                  "width": 2,
+                  "backgroundImage": "https://media.fshoq.com/images/316/pizza-with-vegetables-on-a-wooden-table-316-small.jpg",
+                  "bleed": true
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "text": "What Pizza would you like me to order?"
+            },
+            {
+              "type": "Input.ChoiceSet",
+              "id": "cafeLocation",
+              "choices": [
+                {
+                  "title": "Margherita",
+                  "value": "margherita"
+                },
+                {
+                  "title": "Salami",
+                  "value": "salami"
+                },
+                {
+                  "title": "Ham",
+                  "value": "ham"
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": "Action.Submit",
+              "title": "Ok"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "",
+    "timestamp": "2019-10-08T08:32:57.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Salami Pizza",
+    "timestamp": "2019-10-08T08:32:59.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "xTkdyeP8D/tBEtvj7QbxEBHFHhc="
+    },
+    "id": "8",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Ok, I'll start the order now!",
+    "timestamp": "2019-10-08T08:33:01.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]

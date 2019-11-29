@@ -1,0 +1,169 @@
+[
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "timestamp": "2019-10-08T08:31:17.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+        "name": "Bot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Hi!",
+    "timestamp": "2019-10-08T08:31:19.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Hey!",
+    "timestamp": "2019-10-08T08:31:21.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Hello there!\r\nHow can I help you with?\r\n* order - I can order food for you\r\n* list - I can list your previous orders\r\n* help - I can help you with your questions",
+    "timestamp": "2019-10-08T08:31:23.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "I want to order food",
+    "timestamp": "2019-10-08T08:31:25.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "what kind of food shall I order for you?",
+    "timestamp": "2019-10-08T08:31:27.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Salami Pizza",
+    "timestamp": "2019-10-08T08:31:29.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "3y5qGcv9XjX+CDMqxZ7FAbuEQCs="
+    },
+    "id": "8",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Ok, I'll start the order now!",
+    "timestamp": "2019-10-08T08:31:31.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]

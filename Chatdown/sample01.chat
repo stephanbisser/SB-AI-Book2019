@@ -1,0 +1,13 @@
+user=Joe
+bot=Bot
+bot: Hi!
+user: Hey!
+bot: Hello there!
+How can I help you with?
+* order - I can order food for you
+* list - I can list your previous orders
+* help - I can help you with your questions
+user: I want to order food
+bot: what kind of food shall I order for you?
+user: Salami Pizza
+bot: Ok, I'll start the order now!

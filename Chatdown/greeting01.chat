@@ -1,0 +1,7 @@
+user=Joe
+bot=Bot
+user: Hey!
+bot: Hello, how can I help you?
+user:
+user: Hey!
+bot: [Attachment=Cards\greetingCard.json adaptivecard]

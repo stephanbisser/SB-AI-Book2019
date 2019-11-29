@@ -1,0 +1,64 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+            "speak": "<s>Serious Pie is a Pizza restaurant which is rated 9.3 by customers.</s>",
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "size": "2",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Contoso Food Bot",
+                            "weight": "Bolder",
+                            "size": "ExtraLarge"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "I'm here to help you ordering"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "your favorite food!"
+                        }
+                    ],
+                    "width": 2,
+                    "backgroundImage": "https://media.fshoq.com/images/316/pizza-with-vegetables-on-a-wooden-table-316-small.jpg",
+                    "bleed": true
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "What Pizza would you like me to order?"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id": "cafeLocation",
+            "choices": [
+                {
+                    "title": "Margherita",
+                    "value": "margherita"
+                },
+                {
+                    "title": "Salami",
+                    "value": "salami"
+                },
+                {
+                    "title": "Ham",
+                    "value": "ham"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Submit",
+            "title": "Ok"
+        }
+    ]
+}

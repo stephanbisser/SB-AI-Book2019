@@ -1,0 +1,180 @@
+[
+  {
+    "conversation": {
+      "id": "jwomK6pnu/rXXBh1L6fN9qGlv8Q="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "timestamp": "2019-10-08T08:46:57.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+        "name": "Bot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "jwomK6pnu/rXXBh1L6fN9qGlv8Q="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Hey!",
+    "timestamp": "2019-10-08T08:46:59.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "jwomK6pnu/rXXBh1L6fN9qGlv8Q="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "Hello, how can I help you?",
+    "timestamp": "2019-10-08T08:47:01.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "jwomK6pnu/rXXBh1L6fN9qGlv8Q="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "Hey!",
+    "timestamp": "2019-10-08T08:47:03.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "content": {
+          "type": "AdaptiveCard",
+          "id": "NewUserGreeting",
+          "backgroundImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAACeCAYAAACvg+F+AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAxOTowMzoxMyAxOTo0Mjo0OBCBEeIAAAG8SURBVHhe7dJBDQAgEMCwA/+egQcmlrSfGdg6z0DE/oUEw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phCZm52U4FOCAVGHQAAAAASUVORK5CYII=",
+          "body": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://bisserio.blob.core.windows.net/img/bot_bisserio_card.png",
+                  "size": "Stretch"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "spacing": "None",
+              "backgroundImage": "https://bisserio.blob.core.windows.net/img/sidebar_bg_blog_bisser_io.png",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "id": "title",
+                  "spacing": "Medium",
+                  "size": "Large",
+                  "weight": "Bolder",
+                  "color": "Light",
+                  "text": "Hey, I'm Botty - your virtual assistant",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "id": "body",
+                  "size": "Medium",
+                  "color": "Light",
+                  "text": "I can order some food for you - to start click the \"Order Food\" button below...",
+                  "wrap": true
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": "Action.Submit",
+              "title": "Order Food",
+              "data": "Help",
+              "id": "orderBtn"
+            },
+            {
+              "type": "Action.Submit",
+              "title": "Show Orders",
+              "data": "Help",
+              "id": "showOrderBtn"
+            },
+            {
+              "type": "Action.Submit",
+              "title": "Help",
+              "data": "Help",
+              "id": "helpBtn"
+            }
+          ],
+          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+          "version": "1.0",
+          "speak": "Hey, I'm Alfred - Stephan Bisser's digital assistant. You can ask me question about everything Conversational AI or even about Stephan himself",
+          "fallbackText": "This is a default fallback in case I cannot render your card"
+        }
+      }
+    ],
+    "conversation": {
+      "id": "jwomK6pnu/rXXBh1L6fN9qGlv8Q="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "OjGS4nkcV4YYDQImS16TRUBa+n0=",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "text": "",
+    "timestamp": "2019-10-08T08:47:05.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]
